@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#3498db"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:gravity="center"
+            android:text="MoDi"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="92dp"
+            android:background="@drawable/aboutmark"/>
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="137dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="125dp"
+            android:gravity="center"
+            android:text="MoDi(My Only Diary)
+나만의 일기장, MoDi에서는 매일 있었던
+일들을 기록하고, 저장하고, 확인할 수
+있는 공간입니다.
+
+이곳에서 여러분의 삶의 흔적을 남겨 보세요."
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</FrameLayout>
